@@ -1,6 +1,6 @@
 # Referral codes
 
-![alt tag](https://github.com/karina001/spanishColorsMemoryGame/blob/master/spanishMemoryGame.png)
+![alt tag](https://github.com/karina001/referralcodes/blob/master/Screen%20Shot%202018-03-16%20at%2010.42.18%20PM.png)
 
 ## How it's made:
 The idea behind this app is to allow a user to post a fan message onto a 21Savage fan site. Each message can upvoted, downvoted or removed. In completing this project I learned a lot about how templates get rendered to web pages. In terms of the MVC framework, as the controller goes into the "model" to get data
