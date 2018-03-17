@@ -1,5 +1,7 @@
 # Referral codes
 
+![alt tag](https://github.com/karina001/spanishColorsMemoryGame/blob/master/spanishMemoryGame.png)
+
 ## How it's made:
 The idea behind this app is to allow a user to post a fan message onto a 21Savage fan site. Each message can upvoted, downvoted or removed. In completing this project I learned a lot about how templates get rendered to web pages. In terms of the MVC framework, as the controller goes into the "model" to get data
 the controller will pass this data back to the template, which will render what we see. Essentially, the MVC a process for interacting with apps.
