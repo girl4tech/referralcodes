@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>peer to peer referral platform</title>
+</head>
+<body>
+  <h1>Submit referral links, earn your rewards!</h1>
+
+  <ul class="referrals">
+    <% for(var i=0; i<referrals.length; i++) {%>
+      <li class="referral">
+        <span><%= referrals[i].name %></span>
+        <span><%= referrals[i].value %></span>
+        <span><%= referrals[i].code %></span>
+      </li>
+      <% } %>
+    </ul>
+
+    <form action="/referrals" method="POST">
+      <input type="text" placeholder="name" name="name">
+      <input type="text" placeholder="referral value" name="value">
+      <input type="text" placeholder="referral code" name="code">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+  </html>
